@@ -1,5 +1,6 @@
-/**Exercices if, else, else if
- *
+/**Structure de contrôle SI
+ * Exercices if, else, else if et les opérateurs logiques
+ * Étudiant: Rafael De Mendoça
  */
 
 
