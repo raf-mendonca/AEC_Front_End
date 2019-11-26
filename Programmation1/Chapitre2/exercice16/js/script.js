@@ -25,7 +25,7 @@ if (nbr1 >= 10 && nbr2 < 10){
     subt = nbr1 - nbr2;
     alert("La différence entre les deux chiffres est de: "+subt);
 }
-if (nbr2 >= 10 && nbr1 < 10){
+if gi(nbr2 >= 10 && nbr1 < 10){
     subt = nbr1 - nbr2;
     alert("La différence entre les deux chiffres est de: "+subt);
 }
