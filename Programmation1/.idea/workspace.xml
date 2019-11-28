@@ -17,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -30,11 +30,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/workspace.xml" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Dev_Web UdeMy/curso_js_udemy/Introducao js/javascript.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre2\exercice22\css" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre2\exercice22" />
       <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre2\exercice12\css" />
     </key>
   </component>
@@ -60,7 +62,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574438478452</updated>
-      <workItem from="1574438479868" duration="38278000" />
+      <workItem from="1574438479868" duration="71291000" />
+      <workItem from="1574920459665" duration="9654000" />
     </task>
     <servers />
   </component>
@@ -72,7 +75,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
