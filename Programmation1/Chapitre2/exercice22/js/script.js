@@ -3,6 +3,7 @@
  * Étudiant: Rafael De Mendonça Date: 2019-11-27
 */
 var couleur;
+var arriere;
 
 couleur = prompt("Veuillez rentrer une des trois couleurs pour le texte, exemple: 'Rouge', 'Bleu' ou 'Jaune'.");
 
@@ -16,9 +17,17 @@ if (couleur.toUpperCase() === "JAUNE"){
         document.write("<p class='textjaune'><strong>Créez un programme permettant de changer la couleur du texte de la console.</strong><br/>Offrez trois choix de couleurs de fond et de texte à l'utilisateur.<br/>Affichez une ligne de texte de la couleur de fond et de texte choisis par l'utilisateur</p>");
 }
 
+function arrierenavy() {
+    document.body.style.backgroundColor = "navy";
+}
 
-console.log('%c Oh my heavens! ', 'background: #222; color: #bada55');
+function arrieregris() {
+    document.body.style.backgroundColor = "gris";
+}
 
+function arriererose() {
+    document.body.style.backgroundColor = "rosybrown";
+}
 
 
 
