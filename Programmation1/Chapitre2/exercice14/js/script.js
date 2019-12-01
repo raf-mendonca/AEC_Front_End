@@ -7,19 +7,43 @@ var nbrA;
 var nbrB;
 var nbrC;
 
-nbrA = Number(prompt("Veuillez rentrer le premier nombre: "));
-nbrB = Number(prompt("Veuillez rentrer le deuxième nombre: "));
-nbrC = Number(prompt("Veuillez rentrer le troixième nombre: "));
+nbrA = Number(prompt("Veuillez rentrer le premier nombre A: "));
+nbrB = Number(prompt("Veuillez rentrer le deuxième nombre B (différent du 1er et 3ème nombre): "));
+nbrC = Number(prompt("Veuillez rentrer le troixième nombre C (différent du 2ème et 1er nombre): "));
 
-if (nbrA < nbrB && nbrA <nbrC ) {
-    alert("Le premier nombre " + nbrA + ", est plus petit que le deuxième "+ nbrB +" et le troisième nombre "+nbrC+".");
+if (nbrA < nbrB && nbrA < nbrC ) {
+    if(nbrB > nbrC){
+        document.write("<p>A plus petit :</p>" + nbrA + "<p> B plus grand </p>" + nbrB);
+    }
+    else if(nbrC > nbrB){
+        document.write("<p>A plus petit :</p>" + nbrA + "<p> C plus grand </p>" + nbrC);
+    }
+    else{
+        document.write("<p>Vous avez entré des nombres égaux ou pas des nombres</p>");
+    }
 }
-if (nbrB < nbrA && nbrB < nbrC){
-    alert("Le deuxième nombre "+nbrB+", est plus petit que le premier "+nbrA+" et le troisième "+nbrC+".");
+else if (nbrB < nbrA && nbrB < nbrC){
+    if(nbrA > nbrC){
+        document.write("<p>B plus petit :</p>" + nbrB + "<p> A plus grand </p>" + nbrA);
+    }
+    else if(nbrC > nbrA){
+        document.write("<p>B plus petit :</p>" + nbrB + "<p> C plus grand </p>" + nbrC);
+    }
+    else{
+        document.write("<p>Vous avez entré des nombres égaux ou pas des nombres</p>");
+    }
 }
-if (nbrC < nbrA && nbrC < nbrB){
-    alert("Le troisième nombre "+nbrC+", est plus petit que le premier "+nbrA+" et le deuxième "+nbrB+".");
+else if (nbrC < nbrA && nbrC < nbrB){
+    if(nbrA > nbrB){
+        document.write("<p>C plus petit :</p>" + nbrC + " <p>A plus grand </p>" + nbrA);
+    }
+    else if(nbrB > nbrA){
+        document.write("<p>C plus petit :</p>" + nbrC + " <p>B plus grand </p>" + nbrB);
+    }
+    else{
+        document.write("<p>Vous avez entré des nombres égaux ou pas des nombres</p>");
+    }
 }
-else if ((nbrA === nbrB && nbrA === nbrC)||(nbrB === nbrA && nbrB === nbrC)||(nbrC === nbrA && nbrC === nbrB)){
-    alert("Les numéros sont identiques!");
+else{
+    document.write("<p>Vous avez entré des nombres égaux ou pas des nombres</p>");
 }
