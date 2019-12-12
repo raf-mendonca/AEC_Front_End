@@ -47,3 +47,5 @@ else if (nbrC < nbrA && nbrC < nbrB){
 else{
     document.write("<p>Vous avez entré des nombres égaux ou pas des nombres</p>");
 }
+
+
