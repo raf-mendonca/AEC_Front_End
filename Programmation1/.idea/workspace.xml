@@ -17,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -35,9 +35,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre3et4\exercice2\js" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre3et4\exercice2" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre3et4\exercice1" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre3et4" />
       <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre2\exercice22\css" />
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre2\exercice22" />
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre2\exercice12\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -64,6 +66,7 @@
       <updated>1574438478452</updated>
       <workItem from="1574438479868" duration="71291000" />
       <workItem from="1574920459665" duration="58536000" />
+      <workItem from="1576194934589" duration="10714000" />
     </task>
     <servers />
   </component>
