@@ -12,6 +12,12 @@ Exercice:
     font-size: 30px;
 }
 
+.chocolath2{
+    font-family: 'Roboto', sans-serif;
+    color: navy;
+    font-size: 20px;
+}
+
 .belleImage{
     border: 1px solid #ddd;
     border-radius: 4px;
