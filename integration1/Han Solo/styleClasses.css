@@ -3,12 +3,12 @@ Exercice:
 */
 
 @font-face {
-    font-family: maPolice ;
-    src: url("Chocolate_DRINK_DEMO");
+    font-family: 'maPolice' ;
+    src: url("maPolice/Chocolate_DRINK_DEMO.ttf");
 }
 
 .titreChocolat{
-    font-family: maPolice;
+    font-family: 'maPolice';
     font-size: 30px;
 }
 
