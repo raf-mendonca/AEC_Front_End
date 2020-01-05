@@ -1,0 +1,70 @@
+/*Rafael De Mendonça 2020-01-05
+Exercice:
+*/
+
+@font-face {
+    font-family: 'maPolice' ;
+    src: url("maPolice/Starjedi.ttf");
+}
+
+body {
+    width: 1000px;
+    background: url("../Han Solo/img/etoileMort.jpg") no-repeat fixed center;
+    background-color: black;
+    margin: auto;
+
+}
+
+h1{
+    font-family: 'maPolice';
+    font-size: 140px;
+    text-align: center;
+    color: yellow;
+    margin: 0;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-size: 72px;
+}
+
+h3{
+    font-size: 60px;
+}
+
+h4{
+    font-size: 44px;
+}
+
+p{
+    text-align: justify;
+    font-size: 16px;
+    color: white;
+}
+ .films {
+    color: yellow;
+ }
+
+ .images {
+     margin: auto;
+     display: block;
+ }
+
+#presentation {
+    background-color: black;
+}
+
+#filmographie {
+    background-color: black;
+}
+
+a:link {
+    text-decoration: white underline;
+}
+
+
+
