@@ -1,0 +1,68 @@
+/*Rafael De Mendonça 2020-01-11
+Examen 1
+*/
+
+@font-face {
+    font-family: 'jagwi';
+    src: url("../font/jagwi.ttf");
+}
+
+body{
+    width: 1000px;
+    background-image: url("../img/fondecran.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: auto;
+}
+
+h1{
+    font-size: 140px;
+    color: yellow;
+    margin: 0;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 70px;
+}
+
+h3 {
+    font-size: 58px;
+}
+
+h4{
+    font-size: 40px;
+}
+
+p {
+    font-family: 'jagwi';
+    text-align: justify;
+    font-size: 30px;
+    color: white;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.episode {
+    color: yellow;
+}
+
+a h4{
+    color: white;
+    text-decoration: yellow underline;
+}
+
+#yoda {
+    width: 50%;
+}
+
+li p{
+    font-size: 22px;
+}

@@ -9,11 +9,12 @@ Exercice:
 
 body {
     width: 1000px;
-    background: url("../Han Solo/img/etoileMort.jpg") no-repeat fixed center;
+    background-image: url("../Han Solo/img/etoileMort.jpg");
+    background-repeat: no-repeat;
     background-color: black;
     margin: auto;
-
 }
+
 
 h1{
     font-family: 'maPolice';
@@ -45,13 +46,14 @@ p{
     font-size: 16px;
     color: white;
 }
+
+img{
+    display: block;
+    margin: auto;
+}
+
  .films {
     color: yellow;
- }
-
- .images {
-     margin: auto;
-     display: block;
  }
 
 #presentation {
@@ -61,10 +63,11 @@ p{
 #filmographie {
     background-color: black;
 }
+ a h4{
+     color: white;
+     text-decoration: white underline;
+ }
 
-a:link {
-    text-decoration: white underline;
-}
 
 
 
