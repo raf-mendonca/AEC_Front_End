@@ -7,8 +7,8 @@
 
 var tabNoms = [];
 var nom;
-var majeur;
-var mineur;
+var majeur =0;
+var mineur = 9999999;
 
 for (var i=0; i<10 ; i++) {
     tabNoms[i] = prompt("Entrez un numéro:");
