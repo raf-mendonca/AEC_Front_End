@@ -32,7 +32,7 @@ body{
 }
 
 .partie2{
-    height: 300px;
+    height: 100%;
     margin: 0;
     background-color: #f05f40;
 }
@@ -53,7 +53,7 @@ body{
 
 .partie4 {
     height: auto;
-    margin: 0;
+    margin: 60px;
 }
 
 .partie4 hr{
