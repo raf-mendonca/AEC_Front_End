@@ -9,8 +9,8 @@ var tabRecensement = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 var nbrEnfants = 0;
 
 
-while (nbrEnfants !== 999){
-    nbrEnfants = Number(prompt("Combien avez-vous d'enfants? Pour arreter répondez 999."));
+while (nbrEnfants !== "STOP"){
+    nbrEnfants = prompt("Combien avez-vous d'enfants? Pour quitter répondez STOP.");
 
     if (nbrEnfants >= 0 && nbrEnfants < 30){
         if (nbrEnfants<10){

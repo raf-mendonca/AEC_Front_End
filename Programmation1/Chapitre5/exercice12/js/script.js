@@ -8,7 +8,7 @@
 var gabariTest = ["VRAI", "FAUX", "FAUX", "FAUX", "VRAI", "VRAI", "FAUX", "VRAI", "FAUX", "VRAI"]
 var resultatTest = [];
 var points = 0;
-
+// Demande les réponses
 for (var i=0; i<10; i++) {
     if (i === 0) {
         resultatTest[0] = prompt("Répondre vrai ou faux: La capitale du Canada est Ottawa?");

@@ -9,7 +9,7 @@
 var nomEleve = [];
 var note = [];
 var somme = 0;
-var media = 0;
+
 
 for (var i=0; i<5 ; i++) {
     nomEleve[i] = prompt("Entrez le nom de l'étudiant: ");

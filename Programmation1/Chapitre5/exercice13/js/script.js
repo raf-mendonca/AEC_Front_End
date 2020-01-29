@@ -10,9 +10,10 @@ var trouver = false;
 
 for (var i =0; i<12 ; i++) {
     tableau[i] = Math.floor(Math.random() *10);
+    console.log(tableau[i]);
 }
 
-for (var j =0; j<tableau.length; j++){
+for (var j =0; j<tableau.length-1; j++){
     if ((tableau[j] + tableau[11]) === 15){
         document.write("Le nombre à l'indice "+j+" =  "+tableau[j]+" + le nombre "+tableau[11]+" au dernier indice est = 15.<br>");
         trouver = true;

@@ -8,11 +8,12 @@
 
 var tableau = [];
 var trouver = false;
-
+//Création de nombres aléatoires et insertion dans l'array au lieu de le faire rentrer
 for (var i =0; i<12 ; i++) {
     tableau[i] = Math.floor(Math.random() *10);
+    console.log(tableau[i]);
 }
-
+// navigation dans l'array
 for (var j =0; j<tableau.length; j++){
     for (var k =0; k<tableau.length; k++)
         if ((tableau[j] + tableau[k]) === 15){

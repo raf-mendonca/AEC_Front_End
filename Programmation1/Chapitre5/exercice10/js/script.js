@@ -14,17 +14,19 @@ var cours = [
     "BUREAUTIQUE"
 ];
 
-var option = prompt("Veuillez entrer une option de cours:");
-var reponse;
+var option = prompt("Veuillez entrer une option de cours:").toUpperCase();
+var reponse = false;
 
 for (var i = 0; i <cours.length ; i++){
-    if (option.toUpperCase() === cours[i]){
-        reponse= 'OUI';
-        document.write(reponse);
+    if (option === cours[i]){
+        reponse = true;
     }
 }
-if (reponse != 'OUI'){
-    document.write("NON");
+if (reponse){
+    console.log("Le cours est offert");
+}
+else{
+    console.log("Le cours n'est pas offert");
 }
 
 
