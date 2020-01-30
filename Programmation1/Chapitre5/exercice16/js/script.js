@@ -15,8 +15,7 @@ document.write("On veut ajouter le nombre " + aleatoire + " dans le tableau<br><
 
 for(var i=0;i<tabNombres.length;i++){
     //Si le nombre est placé dans le tableau, on décale vers la droite les nombres
-    if(nbPlacer)
-    {
+    if(nbPlacer){
         temp2 = tabNombres[i];
         tabNombres[i] = temp;
         temp = temp2;
