@@ -1,0 +1,45 @@
+/*Examen 2 Integration 1
+/*Date dernière modification: 2020-02-11
+/*Rafael Izaias De Mendonça
+ */
+@font-face {
+    font-family: 'maPolice';
+    src: url("../Examen2/font/Thewitcher-jnOj.ttf");
+}
+
+body {
+    background: #0b0b0b;
+}
+
+.partie2{
+    font-family: maPolice;
+    color: white;
+
+/* Image Witcher Bannière*/
+    background-image: url("../Examen2/img/witcherBanniere.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.font-weight-bold{
+    color: #6c6c6c;
+}
+
+hr{
+ background: #353434;
+ height: 1px;
+ border-style: none;
+ margin: 2% 0;
+}
+
+.partie3 h3{
+ color: #6c6c6c;
+}
+
+.partie5 {
+    font-family: maPolice;
+    color: white;
+}
