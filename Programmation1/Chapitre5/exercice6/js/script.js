@@ -7,6 +7,6 @@
 
 var tab2 = ["Pile","Face","Face","Pile","Face","Pile","Face","Pile","Pile","Face"];
 
-for (var i=0; i<10; i++){
+for (var i=0; i<tab2.length; i++){
     document.write(tab2[i]+" </br>");
 }

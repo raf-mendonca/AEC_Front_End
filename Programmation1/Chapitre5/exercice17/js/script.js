@@ -1,5 +1,7 @@
 /**
- * Exercices Tableau, array: Mélanger un array
+ * Exercices Tableau, array: Lire 5 valeurs dans un tableau. Trier ce tableau en ordre décroissant.
+ Vous pouvez utiliser la méthode sort()
+ Essayez SANS la méthode sort()
  * Étudiant: Rafael De Mendonça
  * Corrigé par: Shany Carle
  * Date: 2020-01-29

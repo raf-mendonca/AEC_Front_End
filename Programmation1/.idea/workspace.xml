@@ -30,17 +30,23 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapitre8/Exercice jQuery1 StormTrooper/Exercice jQuery1 StormTrooper/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre8\Exercice jQuery1 StormTrooper\Exercice jQuery1 StormTrooper\js" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Integration1\Examen2\maPolice" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre6\exeformation3et4" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre5\exercice8\js" />
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre5\exercice3\js" />
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre3et4\exercice2\js" />
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre3et4\exercice2" />
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre3et4\exercice1" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Examen2\Q1\js" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Examen2\Q1" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Examen_Formatif2" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Examen2" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Integration1\Examen2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -74,7 +80,14 @@
       <workItem from="1579201304916" duration="59642000" />
       <workItem from="1579958666429" duration="13356000" />
       <workItem from="1580231837033" duration="1207000" />
-      <workItem from="1580318573422" duration="11277000" />
+      <workItem from="1580318573422" duration="34434000" />
+      <workItem from="1580758343867" duration="15400000" />
+      <workItem from="1580848856899" duration="1011000" />
+      <workItem from="1580860348219" duration="32057000" />
+      <workItem from="1580960190919" duration="30449000" />
+      <workItem from="1581046670106" duration="25715000" />
+      <workItem from="1581169194693" duration="39418000" />
+      <workItem from="1581771582948" duration="62252000" />
     </task>
     <servers />
   </component>
