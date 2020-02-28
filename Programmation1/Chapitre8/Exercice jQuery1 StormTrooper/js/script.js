@@ -11,7 +11,7 @@ $('#stormBlanc').attr("title" , "Pas facile la vie de Stormtrooper");
 //À la même image, ajoutez l’attribut alt pour “image d’un stormtrooper blanc”.
 $('#stormBlanc').attr("alt" , "image d'un Stormtrooper");
 //À la ligne 79, changez le font-awesome (sa classe) pour "fas fa-fighter-jet"
-$('#fontAChanger').css("font-family","fa-fighter-jet");
+$('#fontAChanger').attr("fas","fas fa-fighter-jet"); //resposta do prof $().attr("class","fa-jet");
 
 //Changez le dimension du texte .row4 h1 pour 4rem.
 $('.row4 h1').css('font-size','4rem');
