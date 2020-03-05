@@ -4,15 +4,25 @@
 * Date: 2020-02-27
 */
 
-var positionFlash = "100px";
 
 //ne marche pas
+$(document).ready(function(){
+    $("#boutonGauche").click(function(){
+        $("#flashID").animate({right: '200px'});
+    });
+});
+/*
 $("#boutonGauche").click(function() {
     $("#flashID").css("right","100px");
 });
-
 $("#boutonDroite").click(function() {
-    $("#flashID").css("left","200px");
+    $("#flashID").css("left","600px");
+});
+*/
+$(document).ready(function(){
+    $("#boutonDroite").click(function(){
+        $("#flashID").animate({left: '500px'});
+    });
 });
 //manque revenir à l'image originale
 $("#boutonChangerImage").click(function() {
@@ -24,7 +34,7 @@ $("#boutonEnleverImage").click(function() {
 });
 //ne marche pas
 $("#boutonAjouterImage").click(function() {
-    $("#flashID").attr("src", "img/Flash1.png");
+    $("#flashID").show("src","img/Flash1.png");
 });
 
 $("#boutonAjouterAttribut").click(function() {
@@ -42,6 +52,11 @@ $("#boutonDupliquer").click(function() {
 $("#boutonRalentir").click(function() {
     $("#flashID").remove().prependTo("#flashID");
 });
+
+$( "#boutonPerso1" ).click(function() {
+    $( "#flashID" ).slideDown();
+});
+
 
 
 
