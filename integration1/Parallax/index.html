@@ -2,34 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Parallax</title>
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="smallscreen.css" type="text/css" ></link>
 
 </head>
 <body>
-
+<!-- ZONA 1-->
 <div class="container-fluid parallax bg1">
+    <div class="row align-items-center h-100">
+        <div class="offset-8 col-3">
+            <div class="jumbotron bgOpaque1">
+                <h1 class="display-4 text-center">Lorem Ipsum</h1>
+                <p class="text-justify">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque."</p>
+
+            </div>
+        </div>
+        <div class="col-12 bgOpaque2 text-center align-items-end">
+            <h1>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h1>
+        </div>
+    </div>
+
+</div>
+
+<!-- ZONA 2-->
+<div class="container bleugris mata d-none d-sm-block">
     <div class="row">
-        <div class="col-12">
-            <h1>Rafael</h1>
+        <div class="col-6">
+            <h1>Integer Maximus</h1>
+            <p class="text-justify">Integer maximus accumsan arcu, at gravida ex cursus vel. Etiam dapibus nunc mauris, quis sodales nibh semper eu. Praesent non pretium quam. Suspendisse a bibendum magna. Proin in ornare nulla. Phasellus rhoncus sed metus in pretium. Aenean interdum nulla est, sit amet pharetra massa mattis vitae. Quisque mattis massa vitae enim ultrices, a varius tortor viverra. Phasellus consectetur placerat leo et mollis. Duis pharetra leo eu porta consequat. Etiam in lacinia leo.</p>
+            <h2>Gravida ex Cursus</h2>
+            <ul>
+                <li>Fusce sed egestas velit.</li>
+                <li>Etiam at mollis urna.</li>
+                <li>Maecenas non rhoncus ex.</li>
+            </ul>
+            <br>
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                Carpe Diem
+            </button>
+        </div>
+        <div class="col-6">
+            <img src="image/mataatlantica.jpg" class="img-fluid" alt="Floret Atlantique">
+        </div>
+    </div>
+</div>
+<!-- ZONA 3-->
+<div class="container-fluid parallax bg3 h-100">
+    <div class="row align-items-center h-100">
+        <div class="offset-3 col-6 text-center">
+            <div class="jumbotron jaunebox">
+                <h1>Lorem Ipsum</h1>
+                <ul>
+                    <li>Fusce sed egestas velit.</li>
+                    <li>Etiam at mollis urna.</li>
+                    <li>Maecenas non rhoncus ex.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ZONA 4-->
+<div class="container-fluid parallax bg4">
+    <div class="row align-items-center paristext">
+        <div class="offset-6">
+            <h1>Integer Maximus</h1>
+            <p class="text-justify">Integer maximus accumsan arcu, at gravida ex cursus vel. Etiam dapibus nunc mauris, quis sodales nibh semper eu. Praesent non pretium quam. Suspendisse a bibendum magna. Proin in ornare nulla. Phasellus rhoncus sed metus in pretium. Aenean interdum nulla est, sit amet pharetra massa mattis vitae. Quisque mattis massa vitae enim ultrices, a varius tortor viverra. Phasellus consectetur placerat leo et mollis. Duis pharetra leo eu porta consequat. Etiam in lacinia leo.</p>
+            <h3>Gravida ex Cursus</h3>
+            <p class="text-justify">Praesent id leo dignissim, faucibus velit quis, condimentum lorem. Nunc consectetur pretium purus, in condimentum lorem pretium sit amet. Etiam justo magna, efficitur vitae luctus vitae, tincidunt et felis. Aenean porta euismod dui, non hendrerit quam pulvinar in. Proin quis finibus eros, id pulvinar quam. Integer suscipit massa et sodales vestibulum. Curabitur luctus nulla sed rhoncus elementum. Nunc orci mauris, dignissim fringilla velit ut, mattis ultrices diam. Sed cursus nisl ut sem ultricies, tincidunt cursus nisi congue. Phasellus eu malesuada diam, vitae bibendum nunc. Nulla nisl mi, condimentum ac pellentesque vitae, rhoncus ac sapien. Suspendisse hendrerit luctus neque, quis blandit lacus suscipit eget. Donec at blandit nulla, vitae lobortis justo.</p>
+
+        </div>
+    </div>
+</div>
+
+<!-- ZONA 5-->
+<div class="container-fluid align-items-center text-center ">
+    <div class="row bg5">
+        <div class="col-4 orange py-5">
+            <i class="fas fa-apple-alt fa-7x py-5"></i>
+            <br>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                Carpe Diem
+            </button>
+        </div>
+        <div class="col-4 grisbrown  py-5">
+            <i class="fab fa-windows fa-7x py-5"></i>
+            <br>
+            <p>Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                Carpe Diem
+            </button>
+        </div>
+        <div class="col-4 orange py-5">
+            <i class="fab fa-android fa-7x py-5"></i>
+            <br>
+            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                Carpe Diem
+            </button>
         </div>
 
     </div>
 </div>
 
-<div class="container-fluid parallax bg2">
-    <div class="row">
-        <div class="col-12">
-            <h1>Rafael</h1>
-        </div>
-
-    </div>
-</div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
 
 
 <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>

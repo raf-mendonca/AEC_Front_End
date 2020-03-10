@@ -1,7 +1,11 @@
-
+/*Parallax, Integration 1
+/*Date dernière modification: 2020-03-08
+/*Rafael Izaias De Mendonça
+ */
 html, body {
     margin: 0;
     height: 100%;
+    background-color: #8C9ABD;
 }
 
 
@@ -18,9 +22,51 @@ html, body {
 }
 
 .bg1 {
-    background-image: url("image/shanghai.jpg");
+    background-image: url("image/rio.jpg");
+    height: 100vh;
 }
 
-.bg2 {
-    background-image: url("image/rio.jpg");
+.bgOpaque1 {
+    padding: 40px 15px 20px;
+    background-color: rgba(255,255,0,.75);
+ }
+
+.bgOpaque2 {
+    padding: 40px 15px 20px;
+    background-color: rgba(140,154,189,.75);
+
+}
+
+.mata {
+    padding: 50px 50px 50px;
+}
+
+.bg3 {
+    background-image: url("image/shanghai.jpg");
+    height: 100vh;
+}
+
+.jaunebox {
+    background-color: rgba(255,255,0,.75);
+    padding: auto;
+}
+
+.bg4 {
+    background-image: url("image/paris.jpg");
+    height: 100vh;
+}
+.paristext {
+    color: white;
+    padding: 50px 50px 50px;
+}
+
+
+.orange {
+    background-color: #FCA364;
+}
+.grisbrown {
+    background-color: #685756;
+}
+.bleugris {
+    background-color: #8C9ABD;
 }

@@ -6,24 +6,15 @@
 
 
 //ne marche pas
-$(document).ready(function(){
-    $("#boutonGauche").click(function(){
-        $("#flashID").animate({right: '200px'});
-    });
-});
-/*
+
 $("#boutonGauche").click(function() {
-    $("#flashID").css("right","100px");
+    $("#flashID").css("left","200px");
 });
+
 $("#boutonDroite").click(function() {
-    $("#flashID").css("left","600px");
+    $("#flashID").css("left","400px");
 });
-*/
-$(document).ready(function(){
-    $("#boutonDroite").click(function(){
-        $("#flashID").animate({left: '500px'});
-    });
-});
+
 //manque revenir à l'image originale
 $("#boutonChangerImage").click(function() {
     $("#flashID").attr("src", "img/Flash2.png");
@@ -56,6 +47,32 @@ $("#boutonRalentir").click(function() {
 $( "#boutonPerso1" ).click(function() {
     $( "#flashID" ).slideDown();
 });
+
+$("#boutonRalentir").click(function() {
+    $("#flashID").remove().prependTo("#flashID");
+});
+
+let monTimer;
+let vitesseSupreme = false;
+
+$("#boutonVitesseSupreme").click(function() {
+    if(!vitesseSupreme){
+        monTimer  = setInterval(function(){
+            $("#flashID").toggle()}, 500);
+        vitesseSupreme = true;
+    }
+});
+
+$("#boutonFinVitesseSupreme").click(function() {
+    clearInterval(monTimer);
+    vitesseSupreme = false;
+    $("#flashID").show();
+});
+
+$( "#boutonNuke").click(function() {
+    $(".centralCity").addClass("bomba");
+});
+
 
 
 
