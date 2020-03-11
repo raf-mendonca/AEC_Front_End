@@ -70,3 +70,12 @@ html, body {
 .bleugris {
     background-color: #8C9ABD;
 }
+
+
+@media only screen and (max-width: 481px){
+    .bg1 {
+        background-image: url("image/mataatlantica.jpg");
+        height: 100vh;
+    }
+}
+
