@@ -21,12 +21,21 @@ html, body {
     background-size: cover;
 }
 
-.bg1 {
-    background-image: url("image/rio.jpg");
-    height: 100vh;
+@media (min-width: 980px) {
+    .bg1 {
+        background-image: url("image/rio.jpg");
+        height: 100vh;
+    }
 }
 
-.bgOpaque1 {
+@media only screen and (max-width: 981px){
+    .bg1 {
+        background-image: url("image/mataatlantica.jpg");
+        height: 100vh;
+    }
+}
+
+gOpaque1 {
     padding: 40px 15px 20px;
     background-color: rgba(255,255,0,.75);
  }
@@ -35,10 +44,6 @@ html, body {
     padding: 40px 15px 20px;
     background-color: rgba(140,154,189,.75);
 
-}
-
-.mata {
-    padding: 50px 50px 50px;
 }
 
 .bg3 {
@@ -72,10 +77,4 @@ html, body {
 }
 
 
-@media only screen and (max-width: 481px){
-    .bg1 {
-        background-image: url("image/mataatlantica.jpg");
-        height: 100vh;
-    }
-}
 
