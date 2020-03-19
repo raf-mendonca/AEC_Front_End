@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <title>Validation de Formulaires</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container pt-5">
+
+    <form>
+        <h1>Comiccon 2020</h1>
+        <div class="form-group">
+            <label for="username">Nom d'usager:</label>
+            <input type="text" class="form-control" id="username" placeholder="Entrer votre nom d'utilisateur">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Mot de passe</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Entrez e mot de passe">
+        </div>
+        <div class="form-group">
+            <label for="pwdrepeat">Confirmer le mot de passe</label>
+            <input type="password" class="form-control" id="pwdrepeat" placeholder="Confirmer votre mot de passe">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Entrez le courriel">
+        </div>
+    </form>
+    <hr>
+
+    <h3>Personnages</h3>
+    <form>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input class="custom-control-input" type="radio" name="exampleRadios1" id="starwars" value="option1" checked>
+            <label class="custom-control-label" for="starwars">Starwars</label>
+            <select class="custom-select" id="listeStarWars">
+                <option selected>Starwars</option>
+                <option value="Yoda">Yoda</option>
+                <option value="Darth-Vader">Darth-Vader</option>
+                <option value="Obiwan">Obiwan</option>
+            </select>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input class="custom-control-input" type="radio" name="exampleRadios" id="marvel" value="option2">
+            <label class="custom-control-label" for="marvel">Marvel</label>
+            <select class="custom-select" id="listeMarvel">
+                <option selected>Marvel</option>
+                <option value="Thor">Thor</option>
+                <option value="Hulk">Hulk</option>
+                <option value="Spiderman">Spiderman</option>
+            </select>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input class="custom-control-input" type="radio" name="exampleRadios" id="dc" value="option3">
+            <label class="custom-control-label" for="dc">DC</label>
+            <select class="custom-select" id="listeDC">
+                <option selected>DC</option>
+                <option value="Batman" id="batman">Batman</option>
+                <option value="Superman" id="superman">Superman</option>
+                <option value="Arrow" id="arrow">Arrow</option>
+            </select>
+
+        </div>
+
+    </form>
+    <hr>
+    <button type="submit" class="btn btn-default">Submit</button>
+</div>
+
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

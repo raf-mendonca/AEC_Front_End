@@ -1,25 +1,13 @@
-/*Exercice JQuery The Flash*/
-/* Prof.: Shany Carle
-* Rafael De Mendonça
-* Date: 2020-02-27
-*/
+/**
+ * Created by Shany on 2018-11-27.
+ */
 $("#flashIDBas").hide();
 $("#nuke").hide();
 var nbFlash = 1;
 var gauche = 20;
 var FlashVisible = true;
 
-$("#boutonGauche").click(function() {
-    gauche -=10;
-    //$('#imgFlash').css("left",gauche+"px");
-    $( "#imgFlash" ).animate({ "left": "-=50px" }, "slow" );
-});
 
-$("#boutonDroite").click(function() {
-    gauche += 10;
-    //$('#imgFlash').css("left",gauche+"px");}
-    $("#imgFlash").animate({"left": "+=50px"}, "slow");
-});
 
 $("#boutonChangerImage").click(function() {
     var imageFlashSRC = $('#flashID').attr("src");
@@ -31,17 +19,29 @@ $("#boutonChangerImage").click(function() {
     }
 });
 
+$("#boutonGauche").click(function() {
+    gauche -=10;
+
+    //$('#imgFlash').css("left",gauche+"px");
+    $( "#imgFlash" ).animate({ "left": "-=50px" }, "slow" );
+});
+
+$("#boutonDroite").click(function() {
+    gauche += 10;
+    //$('#imgFlash').css("left",gauche+"px");}
+    $("#imgFlash").animate({"left": "+=50px"}, "slow");
+});
 
 $("#boutonEnleverImage").click(function() {
-    $("#flashID").hide();
+    $('#imgFlash').hide();
 });
 
 $("#boutonAjouterImage").click(function() {
-    $("#imgFlash").show();
+    $('#imgFlash').show();
 });
 
 $("#boutonAjouterAttribut").click(function() {
-    $("#flashID").attr("alt" , "Photo de Flash");
+    $('#flashID').attr("alt","Image de Flash");
 });
 
 $("#boutonAjouterTitre").click(function() {
@@ -51,17 +51,12 @@ $("#boutonAjouterTitre").click(function() {
 $("#boutonDupliquer").click(function() {
     nbFlash++;
     $('#imgFlash').append('<img id="flashID'+nbFlash+'" class="flashClass" src="flash.jpg" width="200px"/>');
-});
 
+});
 $("#boutonRalentir").click(function() {
     $('#flashID'+nbFlash).remove();
     nbFlash--;
 });
-
-$( "#boutonPerso1" ).click(function() {
-    $( "#flashID" ).slideDown();
-});
-
 $("#boutonTeleport").click(function() {
     if($("#flashID").is(":visible")){
         $("#flashID").hide();
@@ -75,32 +70,30 @@ $("#boutonTeleport").click(function() {
     }
 });
 
-
-
-let monTimer;
-let vitesseSupreme = false;
-
 $("#boutonVitesseSupreme").click(function() {
-    if(!vitesseSupreme){
-        monTimer  = setInterval(function(){
-            $("#flashID").toggle()}, 500);
-        vitesseSupreme = true;
-    }
-});
+    var nb = 0;
+    var refreshIntervalId = setInterval(function(){
+        if(FlashVisible === true){
+            console.log("true");
+            $("#flashID").hide();
+            FlashVisible = false;
 
-$("#boutonFinVitesseSupreme").click(function() {
-    clearInterval(monTimer);
-    vitesseSupreme = false;
-    $("#flashID").show();
+        }
+        else{
+            console.log("false");
+            $("#flashID").show();
+            FlashVisible = true;
+            nb++;
+        }
+        if (nb > 5){
+            clearInterval(refreshIntervalId);
+        }
+
+    }, 500);
+
 });
 
 $("#boutonNuke").click(function() {
     $('#AllSite').hide();
     $('#nuke').show();
 });
-
-
-
-
-
-
