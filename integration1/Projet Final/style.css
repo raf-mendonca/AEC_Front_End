@@ -1,13 +1,38 @@
 /*Projet Final Integration 1
-/*Date dernière modification: 2020-03-22
+/*Date dernière modification: 2020-03-29
 /*Rafael Izaias De Mendonça
  */
 body{
     width: auto;
     margin: 0 !important;
+
+}
+
+/*Resposive typographye*/
+html {
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 411px) {
+    html { font-size: 0.8rem;
+    }
+}
+@media only screen and (min-width: 768px) {
+    html { font-size: 1.4rem;
+    }
+}
+@media only screen and (min-width: 960px) {
+    html { font-size: 1.6rem;
+    }
+}
+@media only screen and (min-width: 1140px) {
+    html { font-size: 1.8rem;
+    }
 }
 
 
+
+/*background metalisé*/
 .metalback {
     background-image: url("image/metalise.jpg");
     background-color: black;
@@ -16,6 +41,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+
 p, h1, h3 {
     color: white;
 }
@@ -26,9 +52,8 @@ hr{
     margin: 2% 0;
 }
 
-header {
-    background-color: #000000;
-}
+
+/* Video*/
 header .bdrunner {
     position: relative;
     background-color: black;
@@ -67,37 +92,89 @@ header .overlay {
     background-color: black;
     opacity: 0.1;
     z-index: 1;
-}
+} /*Fin video*/
 
 .partie4 {
-    background-color: #0b0b0b;
     margin: 0!important;
 }
-
+/*img partie4*/
 .partie4 img{
     width: 100%;
     height: 100%;
 }
 
-@media only screen and (max-width: 480px){
-    .carouselSize {
-        background-image: url("image/losangeles_p4.jpg");
-    }
-}
-@media only screen and (max-width: 481px) and (max-width: 1199px){
-    .carouselSize {
-        background-image: url("image/LA2049_1.jpg");
-    }
+
+/*Chagement de la Bannière Pixel 2 et Ipad page index.html */
+.dystopicImg {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: none;
+    background-image: url("image/LA2049_1.jpg");
+    color: white;
 }
 
-@media (min-width: 769px) {
-    .carouselSize img {
-        max-width: 100%;
-        height: 700px;
-        object-fit: cover;
-        object-position: bottom;
+@media only screen and (max-width: 411px){
+    .dystopicImg {
+        display: inline-block;
+    }
+
+    .bdrunner {
+        display: none;
     }
 }
+@media only screen and (min-width: 412px) and (max-width: 768px){
+    .dystopicImg {
+        display: inline-block;
+        background-image: url("image/losangeles_p4.jpg");
+    }
+
+    .bdrunner {
+        display: none;
+    }
+}/*Fin @media pour blade runner*/
+
+/*Chagement de la Bannière Pixel 2 et Ipad page BladeRunner.html */
+.runnerImg {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: none;
+    background-image: url("image/LA2049_1.jpg");
+    color: white;
+}
+
+@media only screen and (max-width: 411px){
+    .runnerImg {
+        display: inline-block;
+    }
+
+    .carouselRunner{
+        display: none;
+    }
+}
+@media only screen and (min-width: 412px) and (max-width: 768px){
+    .runnerImg {
+        display: inline-block;
+        background-image: url("image/losangeles_p4.jpg");
+    }
+
+    .carouselRunner{
+        display: none;
+    }
+}/*Fin @media pour blade runner*/
+
+
+
+/*Carousel BladeRunner.tml et gotham-city.html*/
+.carouselSize img {
+    max-width: 100%;
+    height: 800px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+/*Paralax Index.html*/
 .parallax {
     /* L’image du Parallax */
     background-image: url("image/gotham_parallax.jpg");
@@ -109,7 +186,7 @@ header .overlay {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/*Paralax BladeRunner.html*/
 .paraLAX {
     /* L’image du Parallax Los Angeles*/
     background-image: url("image/LAblade_runner_still.jpg");
@@ -121,7 +198,7 @@ header .overlay {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/*Paralax gotham-city.html*/
 .paraGOT{
     /* L’image du Parallax Los Angeles*/
     background-image: url("image/gothamBatman.jpg");
@@ -134,6 +211,7 @@ header .overlay {
     background-size: cover;
 }
 
+/*Box dans les parallax de chaque page*/
 .jaunebox {
     background-color: rgba(52,58,64,.75);
     padding: auto;
