@@ -1,0 +1,149 @@
+/*Projet Final Integration 1
+/*Date dernière modification: 2020-03-22
+/*Rafael Izaias De Mendonça
+ */
+body{
+    width: auto;
+    margin: 0 !important;
+}
+
+
+.metalback {
+    background-image: url("image/metalise.jpg");
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+p, h1, h3 {
+    color: white;
+}
+hr{
+    background: #353434;
+    height: 1px;
+    border-style: none;
+    margin: 2% 0;
+}
+
+header {
+    background-color: #000000;
+}
+header .bdrunner {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.1;
+    z-index: 1;
+}
+
+.partie4 {
+    background-color: #0b0b0b;
+    margin: 0!important;
+}
+
+.partie4 img{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 480px){
+    .carouselSize {
+        background-image: url("image/losangeles_p4.jpg");
+    }
+}
+@media only screen and (max-width: 481px) and (max-width: 1199px){
+    .carouselSize {
+        background-image: url("image/LA2049_1.jpg");
+    }
+}
+
+@media (min-width: 769px) {
+    .carouselSize img {
+        max-width: 100%;
+        height: 700px;
+        object-fit: cover;
+        object-position: bottom;
+    }
+}
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("image/gotham_parallax.jpg");
+    /* L’hauteur du Parallax */
+    height: 100%;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paraLAX {
+    /* L’image du Parallax Los Angeles*/
+    background-image: url("image/LAblade_runner_still.jpg");
+    /* L’hauteur du Parallax */
+    height: 100%;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paraGOT{
+    /* L’image du Parallax Los Angeles*/
+    background-image: url("image/gothamBatman.jpg");
+    /* L’hauteur du Parallax */
+    height: 100%;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jaunebox {
+    background-color: rgba(52,58,64,.75);
+    padding: auto;
+}
+
+/*Footer*/
+.footer{
+
+    color:  white;
+
+.copyright p{border-top:1px solid rgba(255,255,255,.1);}
+}
+
