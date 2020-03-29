@@ -17,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -30,24 +30,24 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapitre9/image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Photociti2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Photociti2" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Integration1\Projet Final" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\DemoFormulaires\DemoFormulaires\img" />
       <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre9\image" />
       <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre9\ValidationFormulaires" />
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre8\Flash Version 2020\img" />
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Integration1\Parallax\image" />
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Integration1\Parallax" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Integration1\Projet Final\js" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Photociti2\js" />
       <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Integration1\ModalEtJumbotron\images" />
       <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Examen2\Q1\js" />
       <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Examen2\Q1" />
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Examen_Formatif2" />
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Examen2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -90,7 +90,7 @@
       <workItem from="1581169194693" duration="39418000" />
       <workItem from="1581771582948" duration="76496000" />
       <workItem from="1582585985419" duration="21523000" />
-      <workItem from="1584188917755" duration="25970000" />
+      <workItem from="1584188917755" duration="136514000" />
     </task>
     <servers />
   </component>
