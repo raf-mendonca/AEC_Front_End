@@ -18,15 +18,15 @@ html {
     }
 }
 @media only screen and (min-width: 768px) {
-    html { font-size: 1.4rem;
+    html { font-size: 1.0rem;
     }
 }
 @media only screen and (min-width: 960px) {
-    html { font-size: 1.6rem;
+    html { font-size: 1.4rem;
     }
 }
 @media only screen and (min-width: 1140px) {
-    html { font-size: 1.8rem;
+    html { font-size: 1.6rem;
     }
 }
 
@@ -40,6 +40,12 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 311px) and (max-width: 600px){
+    .metalback {
+        background: #272232;
+    }
 }
 
 p, h1, h3 {
