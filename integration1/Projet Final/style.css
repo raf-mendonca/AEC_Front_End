@@ -42,6 +42,7 @@ html {
     background-repeat: no-repeat;
 }
 
+/*Change background dans les petites écrans*/
 @media only screen and (min-width: 311px) and (max-width: 600px){
     .metalback {
         background: #272232;
