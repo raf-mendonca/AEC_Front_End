@@ -35,19 +35,19 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\NewProject" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Photociti2\Bootstrap\js" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Photociti2" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Integration1\Projet Final" />
+      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\DemoFormulaires\DemoFormulaires\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Photociti2" />
       <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Integration1\Projet Final\js" />
       <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Photociti2\js" />
       <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Integration1\ModalEtJumbotron\images" />
       <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Examen2\Q1\js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Photociti2\Bootstrap\js" />
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Photociti2" />
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Integration1\Projet Final" />
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\DemoFormulaires\DemoFormulaires\img" />
-      <recent name="C:\Users\raped\GitHubProjects\AEC_Front_End\Programmation1\Chapitre9\image" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -92,7 +92,7 @@
       <workItem from="1582585985419" duration="21523000" />
       <workItem from="1584188917755" duration="186511000" />
       <workItem from="1586101272227" duration="35214000" />
-      <workItem from="1586480205050" duration="5084000" />
+      <workItem from="1586480205050" duration="12151000" />
     </task>
     <servers />
   </component>

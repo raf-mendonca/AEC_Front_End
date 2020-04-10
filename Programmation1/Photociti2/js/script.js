@@ -124,6 +124,32 @@ var test = window.location.href='myModal.html'
     $(pContext).append( test)
 }
 
+/*Couleur de fond du cadre - background-color quadro*/
+$("#blanc").click(function(){
+    $(".cadre").css("background-color", "white");
+});
+$("#bleu").click(function(){
+    $(".cadre").css("background-color", "cornflowerblue");
+});
+$("#navy").click(function(){
+    $(".cadre").css("background-color", "navy");
+});
+$("#noir").click(function(){
+    $(".cadre").css("background-color", "black");
+});
+$("#gris").click(function(){
+    $(".cadre").css("background-color", "lightslategrey");
+});
+$("#dark").click(function(){
+    $(".cadre").css("background-color", "#343a40");
+});
+$("#rose").click(function(){
+    $(".cadre").css("background-color", "rosybrown");
+});
+$("#rouge").click(function(){
+    $(".cadre").css("background-color", "red");
+});
+
 
 
 
