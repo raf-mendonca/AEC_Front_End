@@ -1,7 +1,7 @@
 /**
  * Projet Final Phtociti
  * Étudiant: Rafael De Mendonça
- * Date: 2020-04-04
+ * Date: 2020-04-10
  */
 
 
@@ -54,10 +54,10 @@ function addImg(characters){
     if(characters.length == 5 || characters.length == 6 ) wordCol = '2';
     if(characters.length >= 7 ) wordCol = '1';
 
-   //Ajouter de la liste d'images dans le HTML
+    //Ajouter de la liste d'images dans le HTML
     $("#imgList").empty();// repete pas le mot saisie
     $(characters).each(function(index, item){ //Pour chaque item rétrouvé c'est crée un <li> avec un id specifique
-         word   = '<li class="imgWords col-'+wordCol+'" id="'+item+'' + index+'" ><img class="img-thumbnail" src="Letters/'+item+'/'+ item +'1'+'.jpg"'+' ></li>';
+        word   = '<li class="imgWords col-'+wordCol+'" id="'+item+'' + index+'" ><img class="img-thumbnail" src="Letters/'+item+'/'+ item +'1'+'.jpg"'+' ></li>';
         $("#imgList").append(word);
     });
 
@@ -65,32 +65,32 @@ function addImg(characters){
     var idImage;
     $('.imgWords').off('click');
     $('.imgWords').on('click', function(){
-      /*  idImage = $(this).attr('id');
-        $("#containerModal").removeClass("hidden");
-        $(".modal").show();
+        /*  idImage = $(this).attr('id');
+          $("#containerModal").removeClass("hidden");
+          $(".modal").show();
 
-        //Constructions des images dans le modal
-        var pathFolder;
-        if(idImage.find('CS')) pathFolder = idImage.slice(0,2);
-        else pathFolder = idImage.slice(0,1);
+          //Constructions des images dans le modal
+          var pathFolder;
+          if(idImage.find('CS')) pathFolder = idImage.slice(0,2);
+          else pathFolder = idImage.slice(0,1);
 
-        $('.carousel-inner').empty();
-        $('.carousel-inner').append('<div class="carousel-item active">' +
-            '   <img class="d-block w-100 clickon" id="'+pathFolder+'1" src="Letters/'+pathFolder+'/'+pathFolder+'1.jpg'+'" >' +
-            '</div>'+
-            '<div class="carousel-item ">' +
-            '   <img class="d-block w-100 clickon" id="'+pathFolder+'2" src="Letters/'+pathFolder+'/'+pathFolder+'2.jpg'+'" >' +
-            '</div>'+
-            '<div class="carousel-item ">' +
-            '   <img class="d-block w-100 clickon" id="'+pathFolder+'3" src="Letters/'+pathFolder+'/'+pathFolder+'3.jpg'+'" >' +
+          $('.carousel-inner').empty();
+          $('.carousel-inner').append('<div class="carousel-item active">' +
+              '   <img class="d-block w-100 clickon" id="'+pathFolder+'1" src="Letters/'+pathFolder+'/'+pathFolder+'1.jpg'+'" >' +
+              '</div>'+
+              '<div class="carousel-item ">' +
+              '   <img class="d-block w-100 clickon" id="'+pathFolder+'2" src="Letters/'+pathFolder+'/'+pathFolder+'2.jpg'+'" >' +
+              '</div>'+
+              '<div class="carousel-item ">' +
+              '   <img class="d-block w-100 clickon" id="'+pathFolder+'3" src="Letters/'+pathFolder+'/'+pathFolder+'3.jpg'+'" >' +
 
-            '</div>'+'<div class="carousel-item ">' +
-            '   <img class="d-block w-100 clickon" id="'+pathFolder+'4" src="Letters/'+pathFolder+'/'+pathFolder+'4.jpg'+'" >' +
-            '</div>'+
-            '<div class="carousel-item ">' +
-            '   <img class="d-block w-100 clickon" id="'+pathFolder+'5" src="Letters/'+pathFolder+'/'+pathFolder+'5.jpg'+'" >' +
-            '</div>'
-        );*/
+              '</div>'+'<div class="carousel-item ">' +
+              '   <img class="d-block w-100 clickon" id="'+pathFolder+'4" src="Letters/'+pathFolder+'/'+pathFolder+'4.jpg'+'" >' +
+              '</div>'+
+              '<div class="carousel-item ">' +
+              '   <img class="d-block w-100 clickon" id="'+pathFolder+'5" src="Letters/'+pathFolder+'/'+pathFolder+'5.jpg'+'" >' +
+              '</div>'
+          );*/
         testAddModal('#idContainer')
     });
 
@@ -119,11 +119,36 @@ function addImg(characters){
 }
 
 function testAddModal(pContext){
-var test = window.location.href='myModal.html'
+    var test = window.location.href='myModal.html'
     //location.href = "https://www.w3schools.com";
     $(pContext).append( test)
 }
 
+/*Couleur de fond du cadre - background-color quadro*/
+$("#blanc").click(function(){
+    $(".cadre").css("background-color", "white");
+});
+$("#bleu").click(function(){
+    $(".cadre").css("background-color", "cornflowerblue");
+});
+$("#navy").click(function(){
+    $(".cadre").css("background-color", "navy");
+});
+$("#noir").click(function(){
+    $(".cadre").css("background-color", "black");
+});
+$("#gris").click(function(){
+    $(".cadre").css("background-color", "lightslategrey");
+});
+$("#dark").click(function(){
+    $(".cadre").css("background-color", "#343a40");
+});
+$("#rose").click(function(){
+    $(".cadre").css("background-color", "rosybrown");
+});
+$("#rouge").click(function(){
+    $(".cadre").css("background-color", "red");
+});
 
 
 
