@@ -1,0 +1,25 @@
+ul.list-group{
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.imgWords{
+    display: inline;
+    list-style: none;
+    float: left;
+    max-height: 275px;
+    max-width: 150px;
+
+}
+
+.hidden{
+    display: none;
+}
+.modal-style{
+    width: 900px;
+    height: 400px;
+    background-color: rgba(211,211,211,0.75);
+}
+
+
