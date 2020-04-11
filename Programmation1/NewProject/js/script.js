@@ -153,3 +153,4 @@ $("#rouge").click(function(){
 $(".printMe").click(function(){
     $("#imageLettres").print();
 });
+
