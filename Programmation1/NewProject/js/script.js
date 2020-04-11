@@ -110,7 +110,6 @@ function addImg(characters) {
 
 
 
-
     //fermer le modal NE MARCHE PAS
     // Hide the Modal
     $("#myBtn").click(function () {
@@ -123,7 +122,6 @@ function addImg(characters) {
         $('.modal').addClass('hide')
     });
 }
-
 
 /*Couleur de fond du cadre - background-color quadro*/
 $("#blanc").click(function(){
@@ -150,7 +148,16 @@ $("#rose").click(function(){
 $("#rouge").click(function(){
     $(".cadre").css("background-color", "red");
 });
+
+//Button Print
+
 $(".printMe").click(function(){
-    $("#imageLettres").print();
+    $("#imageLettres").show();
+    window.print();
 });
+
+
+
+
+
 
